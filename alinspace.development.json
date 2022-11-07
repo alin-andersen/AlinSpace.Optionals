@@ -1,0 +1,19 @@
+{
+  "PathToSolutionFile": "AlinSpace.Optional.sln",
+  "PathToLocalNugetFolder": "C:\\AlinSpace\\Nuget",
+  "PathToDebugFiles": "C:\\AlinSpace\\Pdbs",
+  "BuildInDebugConfiguration": true,
+  "Author": "Alin Andersen",
+  "Copyright": "© 2022 Alin Andersen",
+  "RepositoryUrl": "https://github.com/onixion/AlinSpace.Optional",
+  "ProjectUrl": "https://github.com/onixion/AlinSpace.Optional",
+  "Tags": "alinspace; alin; space; zen; modules; module",
+  "Projects": [
+
+    {
+      "Name": "AlinSpace.Optional",
+      "Tags": "optionals; optional; option"
+    }
+
+  ]
+}

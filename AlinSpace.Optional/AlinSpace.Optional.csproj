@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <Copyright>© 2022 Alin Andersen</Copyright>
+    <PackageTags>alinspace; alin; space; zen; modules; module, optionals; optional; option</PackageTags>
+    <RepositoryUrl>https://github.com/onixion/AlinSpace.Optional</RepositoryUrl>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+</Project>
