@@ -4,13 +4,18 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <Copyright>© 2022 Alin Andersen</Copyright>
-    <PackageTags>alinspace; alin; space; zen; modules; module, optionals; optional; option</PackageTags>
+    <PackageTags>alinspace; alin; space; optionals; optional; option</PackageTags>
     <RepositoryUrl>https://github.com/onixion/AlinSpace.Optional</RepositoryUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.3</Version>
     <PackageIcon>Icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
     <None Update="Icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
