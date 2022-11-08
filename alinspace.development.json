@@ -1,17 +1,17 @@
 {
-  "PathToSolutionFile": "AlinSpace.Optional.sln",
+  "PathToSolutionFile": "AlinSpace.Optionals.sln",
   "PathToLocalNugetFolder": "C:\\AlinSpace\\Nuget",
   "PathToDebugFiles": "C:\\AlinSpace\\Pdbs",
   "BuildInDebugConfiguration": true,
   "Author": "Alin Andersen",
   "Copyright": "© 2022 Alin Andersen",
-  "RepositoryUrl": "https://github.com/onixion/AlinSpace.Optional",
-  "ProjectUrl": "https://github.com/onixion/AlinSpace.Optional",
+  "RepositoryUrl": "https://github.com/onixion/AlinSpace.Optionals",
+  "ProjectUrl": "https://github.com/onixion/AlinSpace.Optionals",
   "Tags": "alinspace; alin; space;",
   "Projects": [
 
     {
-      "Name": "AlinSpace.Optional",
+      "Name": "AlinSpace.Optionals",
       "Tags": "optionals; optional; option"
     }
 

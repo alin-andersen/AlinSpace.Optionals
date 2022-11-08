@@ -1,4 +1,4 @@
-﻿namespace AlinSpace.Optional
+﻿namespace AlinSpace.Optionals
 {
     public class OptionalHasNoValueException : Exception
     {

@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace AlinSpace.Optional
+namespace AlinSpace.Optionals
 {
     /// <summary>
     /// Represents the optional.

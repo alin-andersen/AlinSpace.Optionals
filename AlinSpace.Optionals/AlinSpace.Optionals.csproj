@@ -4,9 +4,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <Copyright>© 2022 Alin Andersen</Copyright>
-    <PackageTags>alinspace; alin; space; optionals; optional; option</PackageTags>
-    <RepositoryUrl>https://github.com/onixion/AlinSpace.Optional</RepositoryUrl>
-    <Version>1.0.3</Version>
+    <PackageTags>alinspace; alin; space, optionals; optional; option</PackageTags>
+    <RepositoryUrl>https://github.com/onixion/AlinSpace.Optionals</RepositoryUrl>
+    <Version>1.0.5</Version>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>

@@ -1,4 +1,4 @@
-namespace AlinSpace.Optional.UnitTests
+namespace AlinSpace.Optionals.UnitTests
 {
     public class Optional
     {
