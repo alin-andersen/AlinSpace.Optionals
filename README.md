@@ -7,14 +7,12 @@ AlinSpace Optional Types.
 
 ## Why?
 
-In C# reference types can either point to an object (be not "null") or not point to any object (be "null"). 
-Value types can't be "null". 
+In C#, reference types can either point to an object (be not "null") or not point to any object (be "null"). 
+Value types can't be "null".
 
-However, both reference and value types can be "default". But "default" does not
-mean the same for reference and value types. For reference types it means "null" and for value types it means the 
-default value (e.g. for integer it is 0).
+However, both reference and value types can be "default". But "default" does not mean the same for reference and value types. For reference types, it means "null" and for value types, it means the default value (e.g., for integer, it is 0).
 
-Optionals help with this problem, by making both reference and value types behave the same.
+Optionals help by making reference and value types behave the same.
 
 ## Examples
 
@@ -43,8 +41,7 @@ optional.Value // throws OptionalHasNoValueException
 optional.ValueOrDefault // 0
 ```
 
-However be careful about "default". The optional
-will have a value:
+However be careful about "default". The optional **will have a value**:
 
 ```csharp
 Optional<int> optional = default;
@@ -54,3 +51,16 @@ optional.HasNoValue // false
 optional.Value // 0
 optional.ValueOrDefault // 0
 ```
+
+Same with reference types:
+
+```csharp
+Optional<MyObject> optional = null;
+
+optional.HasValue // true
+optional.HasNoValue // false
+optional.Value // null
+optional.ValueOrDefault // null
+```
+
+You have to **explicitly set the optional via `Optional<T>.None`** to make an empty optional.
