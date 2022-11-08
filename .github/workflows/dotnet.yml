@@ -32,4 +32,4 @@ jobs:
       run: dotnet pack -c Release -o . AlinSpace.Optional/AlinSpace.Optional.csproj
       
     - name: Publish
-      run: dotnet nuget push AlinSpace.Optional.*.nupkg -k ${{ secrets.NUGET_KEY }} -s https://api.nuget.org/v3/index.json
+      run: dotnet nuget push AlinSpace.Optional.*.nupkg -k ${{ secrets.NUGET_KEY }} -s https://api.nuget.org/v3/index.json --skip-duplicate
