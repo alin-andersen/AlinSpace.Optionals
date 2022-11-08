@@ -2,9 +2,9 @@ name: .NET
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "release" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "release" ]
 
 jobs:
   build:
@@ -26,10 +26,10 @@ jobs:
       run: dotnet build --no-restore -c Release
        
     - name: Test
-      run: dotnet test AlinSpace.Optional/AlinSpace.Optional.UnitTests.csproj
+      run: dotnet test AlinSpace.Optional/AlinSpace.Optional.UnitTests.csproj --no-build
 
     - name: Package
-      run: dotnet pack -c Release -o . AlinSpace.Optional/AlinSpace.Optional.csproj
+      run: dotnet pack AlinSpace.Optional/AlinSpace.Optional.csproj -o . --no-build
       
     - name: Publish
-      run: dotnet nuget push AlinSpace.Optional.*.nupkg -k ${{ secrets.NUGET_KEY }} -s https://api.nuget.org/v3/index.json
+      run: dotnet nuget push AlinSpace.Optional.*.nupkg -k ${{ secrets.NUGET_KEY }} -s https://api.nuget.org/v3/index.json --skip-duplicate
