@@ -1,4 +1,4 @@
-<img src="https://github.com/onixion/AlinSpace.Optional/blob/main/Assets/Icon.png" width="200" height="200">
+<img src="https://github.com/alin-andersen/AlinSpace.Optional/blob/main/Assets/Icon.png" width="200" height="200">
 
 # AlinSpace.Optional
 [![NuGet version (AlinSpace.Optional)](https://img.shields.io/nuget/v/AlinSpace.Optional.svg?style=flat-square)](https://www.nuget.org/packages/AlinSpace.Optional/)
